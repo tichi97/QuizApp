@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="question_num">Question: 1/x</string>
+    <string name="score">Score: 0</string>
+    <string name="Next">Next</string>
+    <string name="Previous">Previous</string>
+    <string name="Exam">IST 099 Examination</string>
+
+
+    <string name="question1">The location on a windows operating system where all the deleted files are stored is </string>
+    <string name="question2">When you draw a plan of a house, you would make use of the following software</string>
+    <string name="question3">In which of the following is batch processing used?</string>
+    <string name="question4">Virtual memory is</string>
+    <string name="question5">Multiprogramming systems</string>
+
+    <string name="opt1A">my computer</string>
+    <string name="opt1B">my documents</string>
+    <string name="opt1C">the recycle bin</string>
+    <string name="opt1D">the task bar</string>
+
+    <string name="opt2A">database</string>
+    <string name="opt2B">computer aided design</string>
+    <string name="opt2C">computer graphics</string>
+    <string name="opt2D">spreadsheet</string>
+
+    <string name="opt3A">booking a holiday</string>
+    <string name="opt3B">checking stolen vehicles</string>
+    <string name="opt3C">controlling of traffic lights</string>
+    <string name="opt3D">producing a company\'s payroll</string>
+
+    <string name="opt4A">an extremely large main memory</string>
+    <string name="opt4B">an extremely large secondary memory</string>
+    <string name="opt4C">an illusion of extremely large main memory</string>
+    <string name="opt4D">a type of memory used in super computers</string>
+
+    <string name="opt5A">are easier to develop than single programming systems</string>
+    <string name="opt5B">are used only on large main frame computers</string>
+    <string name="opt5C">execute each job faster</string>
+    <string name="opt5D">run several programs at the same time</string>
+
+
+</resources>

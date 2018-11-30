@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="16dp"
+    tools:context = ".MainActivity">
+
+    <TextView android:text = "Your ID"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textViewId"
+        android:textSize = "20sp"
+        android:layout_alignParentTop = "true"
+        android:layout_alignParentLeft = "true"
+        android:textColor = "@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Name"
+        android:id = "@+id/textViewName"
+        android:layout_below = "@+id/textViewId"
+        android:layout_alignParentLeft = "true"
+        android:textColor = "@color/colorPrimaryDark"
+        android:textSize = "20sp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your results = "
+        android:id="@+id/textViewResults"
+        android:layout_below="@+id/textViewName"
+        android:layout_alignParentStart="true"
+        android:textColor = "@color/colorPrimaryDark"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quesitons attempted = "
+        android:id="@+id/textViewAttempted"
+        android:layout_below="@+id/textViewResults"
+        android:layout_alignParentStart="true"
+        android:textColor = "@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quesitons failed = "
+        android:id="@+id/textViewFailed"
+        android:layout_below="@+id/textViewAttempted"
+        android:layout_alignParentStart="true"
+        android:textColor = "@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quesitons not attempted = "
+        android:id="@+id/textViewNotAttempted"
+        android:layout_below="@+id/textViewFailed"
+        android:layout_alignParentStart="true"
+        android:textColor = "@color/colorPrimaryDark"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Results sent to lecturer on "
+        android:id="@+id/textViewPhone"
+        android:layout_below="@+id/textViewNotAttempted"
+        android:layout_alignParentStart="true"
+        android:textColor = "@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/buttonHome"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="36dp" />
+
+</RelativeLayout>

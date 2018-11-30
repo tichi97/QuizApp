@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="16dp"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/textView_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Exam"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textView_question_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_num"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/textView_score" />
+
+    <TextView
+        android:id="@+id/textView_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is where the question lies This is where the question liesThis is where the question liesThis is where the question lies"
+        android:textSize="20sp"
+        android:layout_above="@id/radioGroup"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 1"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2"/>
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 3"/>
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 4"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/Next" />
+    <Button
+        android:id="@+id/button_prev"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/Previous" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/buttonHome"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="36dp" />
+
+</RelativeLayout>
